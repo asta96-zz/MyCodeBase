@@ -1,0 +1,11 @@
+C:\Users\KM485TT\source\repos\CrmVSSolution1\RetroPlugins2\bin\Debug\CrmVSSolution1.RetroPlugins2.dll
+C:\Users\KM485TT\source\repos\CrmVSSolution1\RetroPlugins2\bin\Debug\CrmVSSolution1.RetroPlugins2.pdb
+C:\Users\KM485TT\source\repos\CrmVSSolution1\RetroPlugins2\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\KM485TT\source\repos\CrmVSSolution1\RetroPlugins2\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\KM485TT\source\repos\CrmVSSolution1\RetroPlugins2\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\KM485TT\source\repos\CrmVSSolution1\RetroPlugins2\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\KM485TT\source\repos\CrmVSSolution1\RetroPlugins2\obj\Debug\RetroPlugins2.csprojAssemblyReference.cache
+C:\Users\KM485TT\source\repos\CrmVSSolution1\RetroPlugins2\obj\Debug\RetroPlugins2.csproj.CoreCompileInputs.cache
+C:\Users\KM485TT\source\repos\CrmVSSolution1\RetroPlugins2\obj\Debug\RetroPlugins2.csproj.CopyComplete
+C:\Users\KM485TT\source\repos\CrmVSSolution1\RetroPlugins2\obj\Debug\CrmVSSolution1.RetroPlugins2.dll
+C:\Users\KM485TT\source\repos\CrmVSSolution1\RetroPlugins2\obj\Debug\CrmVSSolution1.RetroPlugins2.pdb

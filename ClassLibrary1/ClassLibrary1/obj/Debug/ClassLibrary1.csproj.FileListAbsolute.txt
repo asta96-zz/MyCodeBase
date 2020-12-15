@@ -1,0 +1,12 @@
+C:\Users\KM485TT\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+C:\Users\KM485TT\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\KM485TT\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\KM485TT\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\KM485TT\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\KM485TT\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\KM485TT\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\KM485TT\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\KM485TT\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\KM485TT\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CopyComplete
+C:\Users\KM485TT\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\KM485TT\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

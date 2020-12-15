@@ -1,0 +1,15 @@
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\bin\Debug\Crm Connection Checker.exe.config
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\bin\Debug\Crm Connection Checker.exe
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\bin\Debug\Crm Connection Checker.pdb
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\obj\Debug\Crm Connection Checker.csprojAssemblyReference.cache
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\obj\Debug\Crm Connection Checker.csproj.CoreCompileInputs.cache
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\obj\Debug\Crm Connection Checker.csproj.CopyComplete
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\obj\Debug\Crm Connection Checker.exe
+C:\Users\KM485TT\source\repos\Crm Connection Checker\Crm Connection Checker\obj\Debug\Crm Connection Checker.pdb

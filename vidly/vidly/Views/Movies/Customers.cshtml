@@ -1,0 +1,36 @@
+﻿@model  List<vidly.Models.customer>
+@{
+    ViewBag.Title = "Customers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Customers</h2>
+<ul>
+
+    @if (Model.Count > 0)
+    {
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Customer</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var customer in Model)
+                {
+                <tr>
+                    <td>
+                        @Html.ActionLink(customer.Name, "Details", "Movies", new { id = customer.id }, null)
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+
+    }
+    </table>
+    else
+    {
+    <h2>No customer is added </h2>
+    }
+</ul>
+

@@ -1,0 +1,73 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.ServiceModel;
+using Microsoft.Xrm.Sdk;
+using Microsoft.Xrm.Sdk.Query;
+using Microsoft.Crm.Sdk.Messages;
+
+namespace CaseEntityPlugins
+{
+    public class CaseUpdate : IPlugin
+    {
+        public void Execute(IServiceProvider serviceProvider)
+        {
+            #region Context
+            IPluginExecutionContext context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
+            IOrganizationServiceFactory servicefactory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
+            IOrganizationService Service = servicefactory.CreateOrganizationService(context.UserId);
+            ITracingService tracingservice = (ITracingService)serviceProvider.GetService(typeof(ITracingService));
+            #endregion
+
+            Entity CaseRecord = Service.Retrieve(context.PrimaryEntityName, context.PrimaryEntityId, new ColumnSet(true));
+            QueryExpression query = new QueryExpression()
+            {
+                EntityName = "workhistorylogicalname",
+                ColumnSet = new ColumnSet(true)
+            };
+            ConditionExpression cond = new ConditionExpression("casehistoryid", ConditionOperator.Equal, context.PrimaryEntityId); FilterExpression filter = new FilterExpression();
+            filter.AddCondition(cond);
+            query.Criteria = filter;
+            EntityCollection results = Service.RetrieveMultiple(query);
+            if (results != null && results.Entities.Count > 0)
+            {
+                //update history entity
+                Entity ent = new Entity()
+                {
+                    LogicalName = "",
+                    Id = results[0].Id
+                };
+                ent.Attributes["field1"] = results[0].Contains("cfield1") ? results[0].GetAttributeValue<int>("cfield1") : 0;
+                ent.Attributes["field2"] = results[0].Contains("cfield2") ? results[0].GetAttributeValue<int>("cfield2") : 0;
+                ent.Attributes["field3"] = results[0].Contains("cfield3") ? results[0].GetAttributeValue<int>("cfield3") : 0;
+                Service.Update(ent);
+
+                //Deactivate the current history record 
+                SetStateRequest setStateRequest = new SetStateRequest()
+                {
+                    EntityMoniker = new EntityReference
+                    {
+                        Id = context.PrimaryEntityId,
+                        LogicalName = context.PrimaryEntityName,
+                    },
+                    State = new OptionSetValue(1),
+                    Status = new OptionSetValue(2)
+                };
+                Service.Execute(setStateRequest);
+
+                //Create the new history record
+                Entity NewHistory = new Entity()
+                {
+                    LogicalName = "Historyentitylogicalname"
+                };
+                NewHistory["casehisoryid"] = new EntityReference(context.PrimaryEntityName, context.PrimaryEntityId);
+                Service.Create(NewHistory);
+
+            }
+
+
+        }
+    }
+}

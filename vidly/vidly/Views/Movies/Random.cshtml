@@ -1,0 +1,23 @@
+﻿@model vidly.Models.ViewModel
+@{
+    ViewBag.Title = "Random";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{ 
+    var className = Model.Customers.Count > 0 ? "Popular" : "Not popular";
+}
+<h2 class="@className">@Model.Movies.Name</h2>
+<h3>Model.Customers.Count= @Model.Customers.Count</h3>
+@if (Model.Customers.Count == 0)
+{
+    <text>No one has added to Customer list</text>
+}
+else
+{
+<ul>
+    @foreach (var c in Model.Customers)
+    {
+           <li>@c.Name</li>
+    }
+</ul>
+}

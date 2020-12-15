@@ -1,0 +1,13 @@
+C:\Users\KM485TT\source\repos\Retro.CustomWorkflow\Retro.CustomWorkflow\bin\Debug\Retro.CustomWorkflow.dll
+C:\Users\KM485TT\source\repos\Retro.CustomWorkflow\Retro.CustomWorkflow\bin\Debug\Retro.CustomWorkflow.pdb
+C:\Users\KM485TT\source\repos\Retro.CustomWorkflow\Retro.CustomWorkflow\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\KM485TT\source\repos\Retro.CustomWorkflow\Retro.CustomWorkflow\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\KM485TT\source\repos\Retro.CustomWorkflow\Retro.CustomWorkflow\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\KM485TT\source\repos\Retro.CustomWorkflow\Retro.CustomWorkflow\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\KM485TT\source\repos\Retro.CustomWorkflow\Retro.CustomWorkflow\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\KM485TT\source\repos\Retro.CustomWorkflow\Retro.CustomWorkflow\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\KM485TT\source\repos\Retro.CustomWorkflow\Retro.CustomWorkflow\obj\Debug\Retro.CustomWorkflow.csprojAssemblyReference.cache
+C:\Users\KM485TT\source\repos\Retro.CustomWorkflow\Retro.CustomWorkflow\obj\Debug\Retro.CustomWorkflow.csproj.CoreCompileInputs.cache
+C:\Users\KM485TT\source\repos\Retro.CustomWorkflow\Retro.CustomWorkflow\obj\Debug\Retro.CustomWorkflow.csproj.CopyComplete
+C:\Users\KM485TT\source\repos\Retro.CustomWorkflow\Retro.CustomWorkflow\obj\Debug\Retro.CustomWorkflow.dll
+C:\Users\KM485TT\source\repos\Retro.CustomWorkflow\Retro.CustomWorkflow\obj\Debug\Retro.CustomWorkflow.pdb

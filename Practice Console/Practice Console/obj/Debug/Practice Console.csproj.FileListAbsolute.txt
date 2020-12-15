@@ -1,0 +1,7 @@
+C:\Users\KM485TT\source\repos\Practice Console\Practice Console\bin\Debug\Practice Console.exe.config
+C:\Users\KM485TT\source\repos\Practice Console\Practice Console\bin\Debug\Practice Console.exe
+C:\Users\KM485TT\source\repos\Practice Console\Practice Console\bin\Debug\Practice Console.pdb
+C:\Users\KM485TT\source\repos\Practice Console\Practice Console\obj\Debug\Practice Console.csprojAssemblyReference.cache
+C:\Users\KM485TT\source\repos\Practice Console\Practice Console\obj\Debug\Practice Console.csproj.CoreCompileInputs.cache
+C:\Users\KM485TT\source\repos\Practice Console\Practice Console\obj\Debug\Practice Console.exe
+C:\Users\KM485TT\source\repos\Practice Console\Practice Console\obj\Debug\Practice Console.pdb
